@@ -24,6 +24,10 @@ body {
 
 /* HEADER */
 
+.navigation-list {
+  list-style: none;
+}
+
 .navigation-link {
   font-weight: 700;
   font-size: 20px;
