@@ -103,7 +103,9 @@ body {
   color: #000000;
 }
 
-.infrastucture-lead {
+/* INFRASTRUCTURE */
+
+.infrastructure-lead {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -111,33 +113,35 @@ body {
   text-transform: uppercase;
 }
 
-.infrastucture-lead-description {
+.infrastructure-lead-description {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #333333;
 }
 
-.infrastucture-list {
+.infrastructure-list {
   list-style: none;
 }
 
-.infrastucture-item {
+.infrastructure-item {
   background: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
 
-.infrastucture-item-block {
+.infrastructure-item-block {
   background: #ffffff;
 }
 
-.infrastucture-title {
+.infrastructure-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
 }
+
+/* SEARCH */
 
 .search {
   text-align: center;
