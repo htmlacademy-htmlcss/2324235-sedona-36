@@ -168,3 +168,32 @@ body {
   text-decoration: none;
   color: #ffffff;
 }
+
+.subscribe {
+  background-image: url("../images/subscribe.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.subscribe-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.subscribe-button {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
