@@ -273,3 +273,46 @@ body {
   line-height: 36px;
   text-transform: uppercase;
 }
+
+/* PRODUCT-LIST */
+
+.product-card {
+  list-style: none;
+}
+
+.product-card-link {
+  text-decoration: none;
+}
+
+.product-card-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.product-card-item {
+  color: #333333;
+}
+
+.product-card-price {
+  text-align: right;
+  color: #333333;
+}
+
+.product-card-button {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  /* color: #ffffff; */
+}
+
+.button-like {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #333333;
+}
