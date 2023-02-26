@@ -99,8 +99,6 @@ body {
   text-transform: uppercase;
 }
 
-.advantages-item-square .advantages-title,
-.advantages-item-tourist .advantages-title,
-.advantages-item-road .advantages-title {
+.advantages-title-block {
   color: #000000;
 }
