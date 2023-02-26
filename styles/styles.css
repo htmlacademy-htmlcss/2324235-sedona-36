@@ -264,3 +264,12 @@ body {
   text-align: center;
   text-transform: uppercase;
 }
+
+/* CATALOG-FILTER-PRODUCT */
+
+.search {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
