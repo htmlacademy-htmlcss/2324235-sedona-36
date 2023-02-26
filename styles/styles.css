@@ -171,7 +171,7 @@ body {
 
 /* SUBSCRIBE */
 
-.subscribe {
+.subscribe-theme-custom {
   background-image: url("../images/subscribe.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
@@ -306,7 +306,7 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .button-like {
