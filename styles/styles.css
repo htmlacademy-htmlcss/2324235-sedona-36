@@ -34,6 +34,7 @@ body {
   line-height: 24px;
   text-transform: capitalize;
   text-decoration: none;
+  color: #000000;
 }
 
 .header-button {
@@ -288,6 +289,7 @@ body {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
+  color: #000000;
 }
 
 .product-card-item {
@@ -330,4 +332,9 @@ body {
 
 .pagination-link {
   text-decoration: none;
+  color: #ffffff;
+}
+
+.pagination-current {
+  color: #000000;
 }
