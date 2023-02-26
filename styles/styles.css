@@ -210,3 +210,57 @@ body {
   text-decoration: none;
   color: #000000;
 }
+
+/* INNER-HEADER */
+
+.inner-header {
+  background-image: url("../images/filter/filter.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.inner-header-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  color: #ffffff;
+}
+
+.breadcrumbs {
+  list-style: none;
+  text-decoration: none;
+  font-size: 16px;
+  color: #ffffff;
+}
+
+/* CATALOG-FILTER */
+
+.catalog-filter {
+  color: #ffffff;
+}
+
+.catalog-filter-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.control {
+  line-height: 23px;
+}
+
+.range-slider-price {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+}
