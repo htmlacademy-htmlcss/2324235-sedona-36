@@ -169,6 +169,8 @@ body {
   color: #ffffff;
 }
 
+/* SUBSCRIBE */
+
 .subscribe {
   background-image: url("../images/subscribe.jpg");
   background-size: 100%;
@@ -196,4 +198,15 @@ body {
   line-height: 36px;
   text-align: center;
   color: #ffffff;
+}
+
+/* FOOTER */
+
+.footer-phone {
+  font-size: 40px;
+  line-height: 40px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
 }
