@@ -79,6 +79,7 @@ body {
 .advantages-item {
   background: rgba(131, 179, 211, 0.2);
   color: #333333;
+  text-align: center;
 }
 
 .advantages-item-wide {
@@ -170,6 +171,7 @@ body {
   font-size: 22px;
   line-height: 26px;
   color: #333333;
+  text-transform: none;
 }
 
 .search-button {
