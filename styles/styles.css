@@ -225,7 +225,7 @@ body {
 
 /* INNER-HEADER */
 
-.inner-header {
+.main-inner-container {
   background-image: url("../images/filter/filter.jpg");
   background-size: 100%;
   background-repeat: no-repeat;

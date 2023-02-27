@@ -43,65 +43,67 @@
     </header>
 
     <main class="main-inner" data-test="main">
-      <header class="inner-header">
-        <h1 class="inner-header-title">Гостиницы Седоны</h1>
-        <ol class="breadcrumbs">
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link" href="index.html">
-              <span class="visually-hidden">Главная</span>
-            </a>
-          </li>
-          <li class="breadcrumbs-item">
-            <a class="breadcrumbs-link">Каталог</a>
-          </li>
-        </ol>
-      </header>
-      <form class="catalog-filter-button" action="https://echo.htmlacademy.ru/" method="get">
-        <section class="catalog-filter">
-          <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Инфраструктура:</legend>
-            <label class="control">
-              <input class="control-input" type="checkbox" name="swimming_pool" checked>
-              Бассейн
-            </label>
-            <label class="control">
-              <input class="control-input" type="checkbox" name="parking" checked>
-              Парковка
-            </label>
-            <label class="control">
-              <input class="control-input" type="checkbox" name="Wi-Fi">
-              Wi-Fi
-            </label>
-          </fieldset>
-          <fieldset class="catalog-filter-group">
-            <legend class="catalog-filter-title">Тип жилья:</legend>
-            <label class="control">
-              <input class="control-input" type="radio" name="housing" checked>
-              Гостиница
-            </label>
-            <label class="control">
-              <input class="control-input" type="radio" name="housing">
-              Мотель
-            </label>
-            <label class="control">
-              <input class="control-input" type="radio" name="housing">
-              Апартаменты
-            </label>
-          </fieldset>
-          <fieldset class="range-slider-group">
-            <legend class="range-slider-price">Стоимость, ₽:</legend>
-            <label class="range-slider-input">
-              <input class="range-slider-item" type="text" name="min" value="0">от
-            </label>
-            <label class="range-slider-input">
-              <input class="range-slider-item" type="text" name="max" value="9000">до
-            </label>
-          </fieldset>
-          <button class="button" type="submit">Применить</button>
-          <button class="button" type="reset">Сбросить</button>
-        </section>
-      </form>
+      <div class="main-inner-container">
+        <header class="inner-header">
+          <h1 class="inner-header-title">Гостиницы Седоны</h1>
+          <ol class="breadcrumbs">
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link" href="index.html">
+                <span class="visually-hidden">Главная</span>
+              </a>
+            </li>
+            <li class="breadcrumbs-item">
+              <a class="breadcrumbs-link">Каталог</a>
+            </li>
+          </ol>
+        </header>
+        <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
+          <section class="catalog-filter">
+            <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Инфраструктура:</legend>
+              <label class="control">
+                <input class="control-input" type="checkbox" name="swimming_pool" checked>
+                Бассейн
+              </label>
+              <label class="control">
+                <input class="control-input" type="checkbox" name="parking" checked>
+                Парковка
+              </label>
+              <label class="control">
+                <input class="control-input" type="checkbox" name="Wi-Fi">
+                Wi-Fi
+              </label>
+            </fieldset>
+            <fieldset class="catalog-filter-group">
+              <legend class="catalog-filter-title">Тип жилья:</legend>
+              <label class="control">
+                <input class="control-input" type="radio" name="housing" checked>
+                Гостиница
+              </label>
+              <label class="control">
+                <input class="control-input" type="radio" name="housing">
+                Мотель
+              </label>
+              <label class="control">
+                <input class="control-input" type="radio" name="housing">
+                Апартаменты
+              </label>
+            </fieldset>
+            <fieldset class="range-slider-group">
+              <legend class="range-slider-price">Стоимость, ₽:</legend>
+              <label class="range-slider-input">
+                <input class="range-slider-item" type="text" name="min" value="0">от
+              </label>
+              <label class="range-slider-input">
+                <input class="range-slider-item" type="text" name="max" value="9000">до
+              </label>
+            </fieldset>
+            <button class="button" type="submit">Применить</button>
+            <button class="button" type="reset">Сбросить</button>
+          </section>
+        </form>
+      </div>
       <section class="catalog-filter-product" data-test="filter">
         <p class="search">
           Найдено гостиниц:
