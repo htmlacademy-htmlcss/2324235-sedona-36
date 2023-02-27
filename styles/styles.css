@@ -103,9 +103,9 @@ body {
   color: #000000;
 }
 
-/* INFRASTRUCTURE */
+/* SERVICES */
 
-.infrastructure-lead {
+.services-lead {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -113,27 +113,39 @@ body {
   text-transform: uppercase;
 }
 
-.infrastructure-lead-description {
+.services-lead-description {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
   color: #333333;
 }
 
-.infrastructure-list {
+.services-list {
   list-style: none;
 }
 
-.infrastructure-item {
+.services-item {
   background: rgba(131, 179, 211, 0.12);
   text-align: center;
 }
 
-.infrastructure-item-block {
-  background: #ffffff;
+.services-item-housing {
+  background-image: url("../images/advantage/housing.svg");
+  background-repeat: no-repeat;
 }
 
-.infrastructure-title {
+.services-item-food {
+  background: #ffffff;
+  background-image: url("../images/advantage/food.svg");
+  background-repeat: no-repeat;
+}
+
+.services-item-souvenirs {
+  background-image: url("../images/advantage/souvenirs.svg");
+  background-repeat: no-repeat;
+}
+
+.services-title {
   font-weight: 700;
   font-size: 24px;
   line-height: 28px;
