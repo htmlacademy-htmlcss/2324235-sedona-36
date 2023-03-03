@@ -28,7 +28,7 @@ body {
   color: #000000;
   margin: 0;
   padding: 0;
-  background: #F2F2F2;
+  background: #f2f2f2;
   height: 100%;
 }
 
@@ -79,20 +79,30 @@ body {
   text-transform: uppercase;
   text-decoration: none;
   color: #ffffff;
-}
-
-/* HERO */
-
-.hero {
-  background-image: url("../images/hero.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
+  background-color: #756157;
 }
 
 /* MAIN */
 
 .main-container {
   flex-grow: 1;
+}
+
+.page-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/* HERO */
+
+.hero {
+  background-image: url("../images/hero.jpg");
+  background-repeat: no-repeat;
+}
+
+.hero-img {
+  display: block;
+  margin: 0 auto;
 }
 
 /* ADVANTAGES */
@@ -114,18 +124,27 @@ body {
 
 .advantages-list {
   list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .advantages-item {
   background: rgba(131, 179, 211, 0.2);
   color: #333333;
-  text-align: center;
+  width: 400px;
+  min-height: 385px;
 }
 
 .advantages-item-wide {
   background: #82b3d3;
-  text-align: center;
   color: #ffffff;
+  display: flex;
+  width: 1200px;
 }
 
 .advantages-item:nth-child(even) {
