@@ -43,8 +43,23 @@ body {
 
 /* HEADER */
 
+.navigation {
+  display: flex;
+  width: 990px;
+  margin: 0 auto;
+}
+
 .navigation-list {
   list-style: none;
+  width: 339px;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-user {
+  list-style: none;
+  width: 268px;
+  margin-left: auto;
 }
 
 .navigation-link {
