@@ -32,7 +32,7 @@ body {
   height: 100%;
 }
 
-.page-container {
+.wrapper {
   width: 1200px;
   display: flex;
   flex-direction: column;
@@ -74,9 +74,9 @@ body {
   background-repeat: no-repeat;
 }
 
-/* MAIN-INDEX */
+/* MAIN */
 
-.main-index {
+.main {
   flex-grow: 1;
 }
 
