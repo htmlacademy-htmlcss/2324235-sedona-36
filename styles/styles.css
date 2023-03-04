@@ -299,11 +299,24 @@ body {
   line-height: 36px;
   text-align: center;
   color: #ffffff;
-  background: #82B3D3;
-border-radius: 0px 4px 4px 0px;
+  background: #82b3d3;
+  border-radius: 0px 4px 4px 0px;
 }
 
 /* FOOTER */
+
+.page-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 1060px;
+}
+
+.footer-social-list {
+list-style: none;
+display: flex;
+}
 
 .footer-phone {
   font-size: 40px;
