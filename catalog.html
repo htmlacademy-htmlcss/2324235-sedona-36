@@ -60,7 +60,7 @@
           </header>
           <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
             <section class="catalog-filter">
-              <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+              <h2 class="visually-hidden" hidden>Список гостиниц с фильтрами</h2>
               <fieldset class="catalog-filter-group">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <label class="control">
@@ -100,8 +100,9 @@
                   <input class="range-slider-item" type="text" name="max" value="9000">до
                 </label>
               </fieldset>
-              <button class="button" type="submit">Применить</button>
-              <button class="button" type="reset">Сбросить</button>
+              <label class="range-slider-input">
+                <button class="button button-submit" type="submit">Применить</button>
+                <button class="button" type="reset">Сбросить</button>
             </section>
           </form>
         </div>
