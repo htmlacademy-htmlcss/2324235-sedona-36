@@ -275,6 +275,7 @@ body {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
+  text-align: center;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -284,6 +285,12 @@ body {
   line-height: 26px;
   text-align: center;
   color: #ffffff;
+  padding-left: 362.5px;
+  padding-right: 362.5px;
+}
+
+.subscribe-form-name {
+  text-align: center;
 }
 
 .subscribe-button {
@@ -292,6 +299,8 @@ body {
   line-height: 36px;
   text-align: center;
   color: #ffffff;
+  background: #82B3D3;
+border-radius: 0px 4px 4px 0px;
 }
 
 /* FOOTER */
