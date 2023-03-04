@@ -163,6 +163,14 @@ body {
   color: #000000;
 }
 
+.advanteges-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 85px;
+  padding-right: 85px;
+}
+
 /* SERVICES */
 
 .services-lead {
