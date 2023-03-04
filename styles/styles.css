@@ -113,6 +113,8 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
+  padding-left: 290px;
+  padding-right: 290px;
 }
 
 .lead-description {
