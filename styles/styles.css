@@ -403,6 +403,7 @@ body {
 .range-slider-input {
   width: 288px;
   display: flex;
+  flex-direction: column;
 }
 
 .range-slider-item {
@@ -438,6 +439,26 @@ body {
   font-size: 30px;
   line-height: 36px;
   text-transform: uppercase;
+  width: 338px;
+}
+
+.search-container {
+  width: 1060px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.select-container {
+  width: 522px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.select-control {
+  width: 292px;
 }
 
 /* PRODUCT-LIST */
