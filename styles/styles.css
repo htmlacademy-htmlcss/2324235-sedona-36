@@ -463,6 +463,13 @@ body {
 
 /* PRODUCT-LIST */
 
+.product-list {
+  width: 1060px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
 .product-card {
   list-style: none;
 }
