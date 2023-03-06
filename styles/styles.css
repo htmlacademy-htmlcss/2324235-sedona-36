@@ -322,7 +322,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1060px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .footer-social-list {
