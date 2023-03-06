@@ -475,7 +475,7 @@ body {
 
 .product-list {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
   padding-left: 70px;
   padding-right: 70px;
