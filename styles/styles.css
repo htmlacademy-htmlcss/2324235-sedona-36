@@ -474,10 +474,11 @@ body {
 /* PRODUCT-LIST */
 
 .product-list {
-  width: 1060px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .product-card {
