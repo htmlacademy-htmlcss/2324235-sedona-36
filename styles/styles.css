@@ -452,11 +452,12 @@ body {
 }
 
 .filter-container {
-  width: 1060px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .select-container {
