@@ -581,7 +581,7 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
+  padding: 0;
   width: 1060px;
   height: 60px;
   margin-left: 70px;
