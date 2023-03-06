@@ -315,7 +315,7 @@ body {
   text-align: center;
   color: #ffffff;
   background: #82b3d3;
-  border-radius: 0px 4px 4px 0px;
+  border-radius: 0 4px 4px 0;
   border: none;
 }
 
@@ -374,7 +374,6 @@ body {
 
 .catalog-filter {
   color: #ffffff;
-  display: flex;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
