@@ -172,11 +172,7 @@ body {
 }
 
 .advanteges-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 85px;
-  padding-right: 85px;
+  padding: 102px 85px;
 }
 
 /* SERVICES */
@@ -187,8 +183,8 @@ body {
   line-height: 36px;
   text-align: center;
   text-transform: uppercase;
-  padding-left: 347.5px;
-  padding-right: 347.5px;
+  padding-left: 347px;
+  padding-right: 347px;
 }
 
 .services-lead-description {
@@ -203,7 +199,6 @@ body {
   display: flex;
   margin: 0;
   padding: 0;
-  width: 1200px;
 }
 
 .services-item {
@@ -326,7 +321,8 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1060px;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .footer-social-list {
@@ -430,14 +426,12 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 191px;
   color: #ffffff;
   background: none;
   border: none;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .button-submit {
@@ -457,11 +451,12 @@ body {
 }
 
 .filter-container {
-  width: 1060px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .select-container {
@@ -478,10 +473,11 @@ body {
 /* PRODUCT-LIST */
 
 .product-list {
-  width: 1060px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-items: flex-start;
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
 .product-card {
