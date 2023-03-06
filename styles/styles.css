@@ -427,14 +427,12 @@ body {
   line-height: 20px;
   text-align: center;
   text-transform: uppercase;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 191px;
   color: #ffffff;
   background: none;
   border: none;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .button-submit {
