@@ -203,14 +203,8 @@ body {
 
 .services-item {
   background: rgba(131, 179, 211, 0.12);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   width: 400px;
-  min-height: 385px;
-  padding-left: 85px;
-  padding-right: 85px;
+  height: 385px;
 }
 
 .services-title {
