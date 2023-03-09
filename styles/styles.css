@@ -52,17 +52,20 @@ body {
   background-color: #ffffff;
 }
 
+.page-header-logo {
+  padding-left: 70px;
+  padding-right: 28px;
+}
+
 /* HEADER */
 
 .navigation {
   display: flex;
-  width: 990px;
   margin: 0 auto;
 }
 
 .navigation-list {
   list-style: none;
-  width: 339px;
   margin: 0;
   padding: 0;
 }
