@@ -366,13 +366,20 @@ padding-left: 20px;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding-left: 70px;
-  padding-right: 70px;
+  padding: 40px 70px 30px;
 }
 
 .footer-social-list {
-  list-style: none;
   display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-social-item {
+  width: 48px;
+  height: 40px;
 }
 
 .footer-phone {
@@ -382,6 +389,13 @@ padding-left: 20px;
   text-transform: uppercase;
   text-decoration: none;
   color: #000000;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.htmlacademy-logo {
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 /* INNER-HEADER */
