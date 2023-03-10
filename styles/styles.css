@@ -300,40 +300,50 @@ body {
 /* SUBSCRIBE */
 
 .subscribe {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  padding: 96px 258px 104px;
+  text-align: center;
 }
 
 .subscribe-theme-custom {
   background-image: url("../images/subscribe.jpg");
-  background-size: 100%;
   background-repeat: no-repeat;
+  color: #ffffff;
+  background-size: cover;
+  background-color: #8daab8;
 }
 
 .subscribe-title {
-  font-weight: 700;
   font-size: 30px;
   line-height: 36px;
-  text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
 }
 
 .subscribe-description {
   font-size: 22px;
   line-height: 26px;
   text-align: center;
-  color: #ffffff;
-  padding-left: 362.5px;
-  padding-right: 362.5px;
+  margin: 20px 104px 24px;
+}
+
+.subscribe-form {
+display: flex;
+justify-content: center;
+
 }
 
 .subscribe-form-name {
-  text-align: center;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  margin-top: 54px;
+}
+
+.subscribe-form-name input {
+  border: none;
+  background: #F2F2F2;
+border-radius: 4px 0px 0px 4px;
+width: 402px;
+height: 52px;
+margin: 0;
+padding-left: 20px;
 }
 
 .subscribe-button {
@@ -345,6 +355,8 @@ body {
   background: #82b3d3;
   border-radius: 0 4px 4px 0;
   border: none;
+  text-transform: uppercase;
+  padding: 8px 50px;
 }
 
 /* FOOTER */
