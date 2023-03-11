@@ -557,7 +557,6 @@ body {
 
 .catalog-product-container {
   margin: 0;
-
 }
 
 .product-list {
@@ -603,7 +602,7 @@ body {
 
 .card-price-container {
   margin-left: 20px;
-  margin-right: 20px ;
+  margin-right: 20px;
 }
 
 .product-card-item {
@@ -691,7 +690,10 @@ body {
   padding: 0;
   width: 1060px;
   height: 60px;
-  margin-left: 70px;
+  margin-left: 0;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 60px;
 }
 
 .pagination-item {
@@ -699,16 +701,19 @@ body {
   flex-direction: row;
   align-items: flex-start;
   height: 60px;
-  margin-left: 8px;
+  margin-right: 8px;
 }
 
 .pagination-link {
+  display: block;
+  box-sizing: border-box;
   text-decoration: none;
   color: #ffffff;
   background: #82b3d3;
   border-radius: 4px;
   width: 60px;
   height: 60px;
+  padding: 12px 18px;
 }
 
 .pagination-current {
@@ -716,6 +721,11 @@ body {
   background: #f2f2f2;
   border-radius: 4px;
   margin-left: 0;
+}
+
+.ellipsis {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .subscribe-title-dark {
