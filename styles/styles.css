@@ -520,7 +520,7 @@ padding-left: 20px;
 
 /* CATALOG-FILTER-PRODUCT */
 
-.filter {
+.catalog-filter-found {
   font-weight: 700;
   font-size: 30px;
   line-height: 36px;
@@ -528,24 +528,24 @@ padding-left: 20px;
   width: 338px;
 }
 
-.filter-container {
+.catalog-filter-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding-top: 50px;
   padding-left: 70px;
   padding-right: 70px;
 }
 
-.select-container {
-  width: 522px;
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
+.catalog-select-control {
+  margin-left: 200px;
+  width: 292px;
+  height: 49px;
 }
 
-.select-control {
-  width: 292px;
+.filter-sorting-container {
+  display: flex;
 }
 
 /* PRODUCT-LIST */
