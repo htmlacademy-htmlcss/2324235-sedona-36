@@ -173,7 +173,7 @@ body {
   background: rgba(131, 179, 211, 0.2);
   color: #333333;
   width: 400px;
-  min-height: 385px;
+  height: 385px;
 }
 
 .advantages-item-wide {
