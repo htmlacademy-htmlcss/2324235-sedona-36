@@ -53,11 +53,10 @@ body {
 }
 
 .page-header {
-  height: 64px;
+  min-height: 64px;
 }
 
 .page-header-logo {
-  padding-left: 70px;
   padding-right: 28px;
 }
 
@@ -65,7 +64,9 @@ body {
 
 .navigation {
   display: flex;
+  justify-content: space-between;
   margin: 0 auto;
+  padding: 0 70px;
 }
 
 .navigation-list {
@@ -74,6 +75,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
+  margin-right: 250px;
 }
 
 .navigation-link {
@@ -89,10 +91,10 @@ body {
 
 .navigation-user {
   display: flex;
+  flex-wrap: wrap;
+  align-content: center;
   list-style: none;
-  width: 268px;
-  margin-left: auto;
-  margin-right: 70px;
+  margin: 0;
 }
 
 .navigation-user-link {
