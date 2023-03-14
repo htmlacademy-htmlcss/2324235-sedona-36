@@ -621,13 +621,16 @@ body {
   padding-bottom: 8px;
   width: 140px;
   margin: 0;
+  grid-column: 1 / 2;
 }
 
 .button-basic {
   background: #82b3d3;
+  grid-column: 2 / 3;
 }
 
 .button-selected {
+  grid-column: 2 / 3;
   background: #7db54f;
 }
 
@@ -643,6 +646,11 @@ body {
   padding-bottom: 8px;
   width: 140px;
   margin: 0;
+  grid-column: 2 / 3;
+}
+
+.icons-second {
+  grid-column: 1 / 2;
 }
 
 /* PAGINATION */
