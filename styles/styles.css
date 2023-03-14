@@ -467,6 +467,7 @@ body {
   height: 36px;
   margin: 0;
   padding: 0;
+  padding-left: 20px;
 }
 
 .filter-range-control input {
@@ -541,8 +542,6 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-top: 50px;
-  /* padding-left: 70px;
-  padding-right: 70px; */
 }
 
 .catalog-select-control {
@@ -562,34 +561,27 @@ body {
 }
 
 .product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 340px);
+  gap: 20px;
+  margin: 0;
   padding: 0;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .product-card {
-  list-style: none;
-  width: 340px;
-  height: 438px;
   border: 1px solid #e6e6e6;
   border-radius: 4px;
-}
-
-.product-card-image {
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-}
-
-.card-price-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-  height: 21px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 140px);
+  gap: 16px 20px;
 }
 
 .product-card-link {
   text-decoration: none;
+  grid-column: 1 / -1;
 }
 
 .product-card-title {
@@ -597,34 +589,22 @@ body {
   font-size: 24px;
   line-height: 28px;
   color: #000000;
+  margin: 0;
   margin-top: 16px;
   margin-bottom: 16px;
-  padding-left: 20px;
-}
-
-.card-price-container {
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .product-card-item {
   color: #333333;
+  grid-column: 1 / 2;
+  margin: 0;
 }
 
 .product-card-price {
-  text-align: right;
   color: #333333;
-}
-
-.select-card-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-  height: 36px;
-  margin-left: 20px;
-  margin-right: 20px;
+  grid-column: 2 / 3;
+  margin: 0;
+  text-align: end;
 }
 
 .product-card-button {
@@ -641,7 +621,6 @@ body {
   padding-bottom: 8px;
   width: 140px;
   margin: 0;
-  margin-top: 16px;
 }
 
 .button-basic {
@@ -650,18 +629,6 @@ body {
 
 .button-selected {
   background: #7db54f;
-}
-
-.raiting-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  width: 300px;
-  height: 37px;
-  margin-top: 16px;
-  margin-left: 20px;
-  margin-right: 20px;
 }
 
 .raiting {
@@ -675,6 +642,7 @@ body {
   padding-top: 8px;
   padding-bottom: 8px;
   width: 140px;
+  margin: 0;
 }
 
 /* PAGINATION */
