@@ -271,6 +271,14 @@ body {
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
+  width: 175px;
+  margin: 0 auto;
+  margin-bottom: 62px;
+  position: relative;
+}
+
+.advantages-description {
+  margin: 0;
 }
 
 .advantages-title-subject {
@@ -279,6 +287,21 @@ body {
 
 .advanteges-container {
   padding: 102px 85px;
+}
+
+.advantages-title::after {
+  position: absolute;
+  content: "";
+  right: 55px;
+  left: 55px;
+  bottom: -32px;
+  height: 2px;
+  width: 60px;
+  border-bottom: 2px solid  rgba(0, 0, 0, 0.3);
+}
+
+.advantages-item-wide .advantages-title::after {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
 /* SERVICES */
