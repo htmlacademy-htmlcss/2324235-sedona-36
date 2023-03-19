@@ -297,7 +297,7 @@ body {
   bottom: -32px;
   height: 2px;
   width: 60px;
-  border-bottom: 2px solid  rgba(0, 0, 0, 0.3);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
 }
 
 .advantages-item-wide .advantages-title::after {
@@ -336,6 +336,13 @@ body {
   background: rgba(131, 179, 211, 0.12);
   width: 230px;
   padding: 80px 85px 80px;
+  position: relative;
+}
+
+.services-img {
+  position: absolute;
+  left: calc(40%);
+  top: calc(20%);
 }
 
 .services-title {
@@ -344,6 +351,7 @@ body {
   line-height: 28px;
   text-align: center;
   text-transform: uppercase;
+  margin-top: 100px;
 }
 
 .services-item-food {
