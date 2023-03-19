@@ -467,6 +467,26 @@ body {
   padding-left: 20px;
 }
 
+.subscribe-form-name input:hover {
+  background: #e6e6e6;
+}
+
+.subscribe-form-name input:focus {
+  background: #e6e6e6;
+  outline: solid #83b3d3;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.subscribe-form-name input:focus-visible {
+  background: #e6e6e6;
+  outline: solid #83b3d3;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
 .subscribe-button {
   font-weight: 700;
   font-size: 20px;
@@ -478,6 +498,20 @@ body {
   border: none;
   text-transform: uppercase;
   padding: 8px 50px;
+}
+
+.subscribe-button:hover {
+  background: #68a2ca;
+}
+
+.subscribe-button:focus {
+  background: #68a2ca;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.subscribe-button:focus-visible {
+  color: rgba(255, 255, 255, 0.3);
+  outline: none;
 }
 
 /* FOOTER */
