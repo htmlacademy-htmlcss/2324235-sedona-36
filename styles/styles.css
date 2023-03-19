@@ -180,7 +180,7 @@ body {
   background: #756157;
 }
 
-.header-button:focus-visible {
+.header-button:active {
   background: #615048;
   outline: none;
 }
@@ -414,7 +414,7 @@ body {
   background: #756157;
 }
 
-.search-button:focus-visible {
+.search-button:active {
   background: #615048;
   outline: none;
 }
@@ -479,7 +479,7 @@ body {
   line-height: 24px;
 }
 
-.subscribe-form-name input:focus-visible {
+.subscribe-form-name input:active {
   background: #e6e6e6;
   outline: solid #83b3d3;
   font-weight: 700;
@@ -509,7 +509,7 @@ body {
   color: rgba(255, 255, 255, 0.3);
 }
 
-.subscribe-button:focus-visible {
+.subscribe-button:active {
   color: rgba(255, 255, 255, 0.3);
   outline: none;
 }
