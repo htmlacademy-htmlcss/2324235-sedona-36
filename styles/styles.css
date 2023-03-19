@@ -201,6 +201,12 @@ body {
 .hero {
   background-image: url("../images/hero.jpg");
   background-repeat: no-repeat;
+  position: relative;
+}
+
+.hero-ladder {
+  position: absolute;
+  bottom: 0;
 }
 
 .hero-img {
