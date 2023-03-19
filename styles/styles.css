@@ -144,6 +144,11 @@ body {
   fill: #000000;
 }
 
+.notification-badge {
+  position: absolute;
+  transform: translate(0, -7px);
+}
+
 .navigation-user-link:hover {
   background-color: #83b3d333;
 }
@@ -178,11 +183,6 @@ body {
 .header-button:focus-visible {
   background: #615048;
   outline: none;
-}
-
-.notification-badge {
-  position: absolute;
-  transform: translate(0, -7px);
 }
 
 /* MAIN */
