@@ -406,6 +406,19 @@ body {
   padding: 8px 50px;
 }
 
+.search-button:hover {
+  background: #615048;
+}
+
+.search-button:focus {
+  background: #756157;
+}
+
+.search-button:focus-visible {
+  background: #615048;
+  outline: none;
+}
+
 /* SUBSCRIBE */
 
 .subscribe {
