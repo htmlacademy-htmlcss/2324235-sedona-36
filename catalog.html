@@ -68,16 +68,22 @@
               <li class="breadcrumbs-item">
                 <a class="breadcrumbs-link" href="index.html">
                   <span class="visually-hidden">Главная</span>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" fill="none" viewBox="0 0 13 13"><path fill="currentColor" d="m6.5.5-6 5.8v6.2h12V6.3L6.5.5Zm5 11h-10V6.7l5-4.8 5 4.8v4.8Z"/><path fill="#fff" d="M4.5 10.5h1V8h2v2.5h1V7h-4v3.5Z"/></svg>
                 </a>
               </li>
+              <li>
+                <svg class="breadcrumbs-arrow" xmlns="http://www.w3.org/2000/svg" width="8" height="11" fill="none" viewBox="0 0 8 11"><path fill="currentColor" d="M6.915 4.969 2.165.719c-.25-.25-.75-.25-1.125 0s-.25.75 0 1l4.125 3.75-4 3.75c-.25.25-.25.75 0 1 0 .125.375.25.5.25s.375-.125.5-.25l4.75-4.25a.585.585 0 0 0 0-1Z"/></svg>
+              </li>
               <li class="breadcrumbs-item">
-                <a class="breadcrumbs-link">Гостиницы</a>
+                <a class="breadcrumbs-link breadcrumbs-link-current">Гостиницы</a>
               </li>
             </ol>
           </header>
+
           <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
             <section class="catalog-filter">
               <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
+
               <fieldset class="catalog-filter-list">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <label class="catalog-filter-item">
@@ -93,6 +99,7 @@
                   Wi-Fi
                 </label>
               </fieldset>
+
               <fieldset class="catalog-filter-list">
                 <legend class="catalog-filter-title">Тип жилья:</legend>
                 <label class="catalog-filter-item">
@@ -109,24 +116,27 @@
                 </label>
               </fieldset>
               <fieldset class="catalog-filter-list">
-                <legend class="catalog-filter-title">Стоимость, ₽:</legend>
+                <legend class="catalog-filter-price">Стоимость, ₽:</legend>
                 <div class="filter-range-control-slider">
-                  <label class="filter-range-control">
-                    <input class="catalog-filter-item" type="text" name="min" value="0">от
+                  <label class="filter-range-control-price">
+                    <input class="catalog-filter-item-price item-left" type="text" name="min" value="0">
+                    <span>от</span>
                   </label>
-                  <label class="filter-range-control">
-                    <input class="catalog-filter-item" type="text" name="max" value="9000">до
+                  <label class="filter-range-control-price">
+                    <input class="catalog-filter-item-price item-right" type="text" name="max" placeholder="до" value="9000">
+                    <span>до</span>
                   </label>
                 </div>
               </fieldset>
               <div class="filter-range-control-button">
-                <label class="filter-range-control"></label>
+                <label class="filter-range-control-selection"></label>
                 <button class="catalog-filter-submit" type="submit">Применить</button>
                 <button class="catalog-filter-reset" type="reset">Сбросить</button>
               </div>
             </section>
           </form>
         </div>
+
         <section class="catalog-filter-product" data-test="filter">
           <div class="catalog-filter-container">
             <p class="catalog-filter-found">
