@@ -79,11 +79,9 @@
               </li>
             </ol>
           </header>
-
           <form class="catalog-filter-form" action="https://echo.htmlacademy.ru/" method="get">
             <section class="catalog-filter">
               <h2 class="visually-hidden">Список гостиниц с фильтрами</h2>
-
               <fieldset class="catalog-filter-list">
                 <legend class="catalog-filter-title">Инфраструктура:</legend>
                 <label class="catalog-filter-item">
@@ -99,7 +97,6 @@
                   Wi-Fi
                 </label>
               </fieldset>
-
               <fieldset class="catalog-filter-list">
                 <legend class="catalog-filter-title">Тип жилья:</legend>
                 <label class="catalog-filter-item">
@@ -136,7 +133,6 @@
             </section>
           </form>
         </div>
-
         <section class="catalog-filter-product" data-test="filter">
           <div class="catalog-filter-container">
             <p class="catalog-filter-found">
@@ -148,16 +144,20 @@
             </select>
             <div class="filter-sorting-container">
               <a class="catalog-filter-sorting catalog-filter-sorting-aktive" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none" viewBox="0 0 16 14"><path fill="#000" d="M4 0H0v6h4V0ZM16 0h-4v6h4V0ZM10 0H6v6h4V0ZM4 8H0v6h4V8ZM16 8h-4v6h4V8ZM10 8H6v6h4V8Z"/></svg>
                 <span class="visually-hidden">таблица</span>
               </a>
               <a class="catalog-filter-sorting" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none" viewBox="0 0 16 14"><path fill="#000" d="M16 12H0v2h16v-2ZM14 2v6H2V2h12Zm2-2H0v10h16V0Z"/></svg>
                 <span class="visually-hidden">Слайды</span>
               </a>
               <a class="catalog-filter-sorting" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="14" fill="none" viewBox="0 0 16 14"><path fill="#000" d="M2 0H0v2h2V0ZM16 0H4v2h12V0ZM2 4H0v2h2V4ZM16 4H4v2h12V4ZM2 8H0v2h2V8ZM16 8H4v2h12V8ZM2 12H0v2h2v-2ZM16 12H4v2h12v-2Z"/></svg>
                 <span class="visually-hidden">Список</span>
               </a>
             </div>
           </div>
+
           <ul class="product-list">
             <li class="product-card">
               <a class="product-card-link" href="#">
@@ -169,7 +169,12 @@
               <p class="product-card-price">От 4000 ₽</p>
               <a class="product-card-button" href="#">Подробнее</a>
               <a class="product-card-button button-basic" href="#">В избранное</a>
-              <img src="icons-second" alt="#">
+              <div class="rating-starbox">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+              </div>
               <p class="raiting">Рейтинг: 8,5</p>
             </li>
             <li class="product-card">
@@ -182,7 +187,12 @@
               <p class="product-card-price">От 5000 ₽</p>
               <a class="product-card-button" href="#">Подробнее</a>
               <a class="product-card-button button-selected" href="#">В избранном</a>
-              <img src="icons-second" alt="#">
+              <div class="rating-starbox">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+              </div>
               <p class="raiting">Рейтинг: 9,2</p>
             </li>
             <li class="product-card">
@@ -195,7 +205,11 @@
               <p class="product-card-price">От 2500 ₽</p>
               <a class="product-card-button " href="#">Подробнее</a>
               <a class="product-card-button button-basic" href="#">В избранное</a>
-              <img src="icons-second" alt="#">
+              <div class="rating-starbox">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+              </div>
               <p class="raiting">Рейтинг: 6,9</p>
             </li>
             <li class="product-card">
@@ -208,7 +222,10 @@
               <p class="product-card-price">От 1500 ₽</p>
               <a class="product-card-button" href="#">Подробнее</a>
               <a class="product-card-button button-basic" href="#">В избранное</a>
-              <img src="icons-second" alt="#">
+              <div class="rating-starbox">
+                <img class="rating-star" src="images/catalog/star.svg">
+                <img class="rating-star" src="images/catalog/star.svg">
+              </div>
               <p class="raiting">Рейтинг: 5,0</p>
             </li>
           </ul>
